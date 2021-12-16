@@ -2,9 +2,11 @@ import pygame
 import random, decimal
 import math
 import time
+import os
 
 from pygame import mixer
 
+os.chdir("C:\\Users\\hooss\\source\\repos\\pygame_for_IA\\pygame_IA")
 score = 0
 sound_volume= 0
 music_volume= 0
